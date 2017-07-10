@@ -16,7 +16,7 @@
                 "--config", "nightwatch.json",
                 "--env", "chrome",
                 //"-a", "debug",
-                  "./tests/goodsLablesCount.js"
+                  "./tests/countries.js"
             ]
         },
         {
