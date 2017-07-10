@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="18">
+
+  <testsuite name="adminMenuTest"
+    errors="0" failures="0" hostname="" id="" package="adminMenuTest" skipped="0"
+    tests="18" time="65.28" timestamp="Mon, 10 Jul 2017 12:58:48 GMT">
+  
+    <testcase name="Header Items Check" classname="adminMenuTest" time="10.48" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Appearance Items Check" classname="adminMenuTest" time="2.413" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Catalog Items Check" classname="adminMenuTest" time="9.202" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Countries Item Check" classname="adminMenuTest" time="1.699" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Currencies Item Check" classname="adminMenuTest" time="0.9260" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Customer Items Check" classname="adminMenuTest" time="3.810" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Geo Zones Item Check" classname="adminMenuTest" time="0.8710" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Languages Items Check" classname="adminMenuTest" time="2.619" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Modules Items Check" classname="adminMenuTest" time="7.506" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Orders Items Check" classname="adminMenuTest" time="3.592" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Pages Item Check" classname="adminMenuTest" time="0.9280" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Reports Items Check" classname="adminMenuTest" time="3.084" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Settings Items Check" classname="adminMenuTest" time="9.402" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Slides Item Check" classname="adminMenuTest" time="1.104" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tax Items Check" classname="adminMenuTest" time="2.036" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Translations Items Check" classname="adminMenuTest" time="3.744" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Users Item Check" classname="adminMenuTest" time="0.6470" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="vQmods Items Check" classname="adminMenuTest" time="1.216" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

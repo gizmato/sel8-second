@@ -57,3 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
+# VSCode
+settings.json
+VSWorkspaceState.json
+
+# sel8-second custom
+# reports
+

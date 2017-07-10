@@ -1,0 +1,10 @@
+{
+  "name": "sel8-second",
+  "version": "0.0.1",
+  "dependencies": {
+    "eslint": "^4.2.0",
+    "mocha": "3.4.2",
+    "nightwatch": "^0.9.16",
+    "webdriver-manager": "^12.0.6"
+  }
+}

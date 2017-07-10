@@ -1,0 +1,121 @@
+{
+    "src_folders": [
+        "tests"
+    ],
+    "output_folder": "reports",
+    "live_output": true,
+    "custom_commands_path": "",
+    "custom_assertions_path": "",
+    "page_objects_path": "page_objects",
+    "globals_path": "globals.js",
+    "selenium": {
+        "start_process": true,
+        "server_path": "C:/selenium/Projects/sel8-second/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.4.0.jar",
+        "log_path": "",
+        "port": 4444,
+        "cli_args": {
+            "webdriver.chrome.driver": "./node_modules/webdriver-manager/selenium/chromedriver_2.30.exe",
+            "webdriver.gecko.driver": "./node_modules/webdriver-manager/selenium/geckodriver.exe",
+            "webdriver.edge.driver": "./node_modules/webdriver-manager/selenium/MicrosoftWebDriver.exe",
+            "webdriver.ie.driver": "./node_modules/webdriver-manager/selenium/IEDriverServer.exe"
+        }
+    },
+    "test_settings": {
+        "default": {
+            "launch_url": "http://yandex.ru/",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+                "enabled": false,
+                "path": ""
+            },
+            "globals": {
+                "waitElementPause": 5000,
+                "customPause": 7000,
+                "debugPause": 12000,
+                "waitForConditionTimeout": 40000,
+                "asyncHookTimeout": 40000
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "elementScrollBehavior": 1,
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        },
+        "chrome": {
+            "launch_url": "https://localhost/litecart",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+                "enabled": false,
+                "path": ""
+            },
+            "globals": {
+                "myPause": 7000,
+                "waitForConditionTimeout": 20000,
+                "asyncHookTimeout": 20000
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "elementScrollBehavior": 1,
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "chromeOptions": {
+                    "args": [
+                        "disable-infobars"
+                    ]
+                }
+            }
+        },
+        "ff": {
+            "launch_url": "https://localhost/litecart",
+            "selenium_port": 4444,
+            "selenium_host": "localhost",
+            "silent": true,
+            "screenshots": {
+                "enabled": false,
+                "path": ""
+            },
+            "globals": {
+                "myPause": 7000,
+                "waitForConditionTimeout": 20000,
+                "asyncHookTimeout": 20000
+            },
+            "desiredCapabilities": {
+                "browserName": "firefox",
+                "marionette": true,
+                "acceptInsecureCerts": true,
+                "alwaysMatch": {
+                    "moz:firefoxOptions": {
+                        "binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+                        "args": [
+                            "--no-remote"
+                        ],
+                        "log": {
+                            "level": "trace"
+                        }
+                    }
+                }
+            }
+        },
+        "ie": {
+            "launch_url": "https://localhost/litecart",
+            "globals": {
+                "myPause": 7000,
+                "waitForConditionTimeout": 20000,
+                "asyncHookTimeout": 20000
+            },
+            "desiredCapabilities": {
+                "browserName": "internet explorer",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "skip_testcases_on_fail": true,
+                "unexpectedAlertBehaviour": "accept",
+                "trustAllSSLCerficates": true
+            }
+        }
+    }
+}
