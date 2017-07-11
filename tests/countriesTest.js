@@ -17,6 +17,10 @@ module.exports = {
     },
 
     'Countries List Sorting Check': function (client, done) {
+        this.countries.countrySortingChecker(false, client);
+    },
+
+    'Zones List Sorting Check': function (client, done) {
         this.countries.countrySortingChecker(true, client);
     },
 };

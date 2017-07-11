@@ -62,10 +62,10 @@ var adminMainCommands = {
                                                 });
                                             });
                                     } else if (num.value != 0) {
-                                        console.log('ERROR! Invalid nuber of Zones! Got: ' + num.value + ' at country # ' + countryNum + '.');
+                                        console.log('ERROR! Invalid nuber of Zones! Got: ' + num.value + ' at country # ' + [countryNum-1] + '.');
                                         client.waitForElementVisible('!!!LOOK AT THE PREVIOUS LOG RECORD!!!', 100)
                                     } else {
-                                        console.log('===== ' + num.value + ' zones present for the country ' + currentCountry + '.');
+                                        console.log('===== ' + num.value + ' zones present for the country #' + [countryNum-1] + '.');
                                     }
                                 });
                             });
@@ -86,7 +86,7 @@ var adminMainCommands = {
                                         prevItem = text.value;
                                     }
                                 } else {
-                                    console.log('Country Name is Missing at row #' + countryNum);
+                                    console.log('Country Name is Missing at row #' + [countryNum-1]);
                                     client.waitForElementVisible('!!!LOOK AT THE PREVIOUS LOG RECORD!!!', 100)
                                 }
                             })
