@@ -17,6 +17,6 @@ module.exports = {
     },
 
     'Countries List Sorting Check': function (client, done) {
-        this.countries.countrySortingChecker(client);
+        this.countries.countrySortingChecker(true, client);
     },
 };
