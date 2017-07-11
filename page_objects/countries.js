@@ -1,4 +1,4 @@
-var adminMainCommands = {
+var countriesCommands = {
     countrySortingChecker: function (zone, client, callback) {
         var self = this;
         this.countries = client.page.countries();
@@ -102,7 +102,7 @@ module.exports = {
     url: function () {
         return this.api.launchUrl + '/admin';
     },
-    commands: [adminMainCommands],
+    commands: [countriesCommands],
     elements: {
         сountriesMain: '[href*="admin/?app=countries&doc=countries"]',
         countriesList: '[name="countries_form"] tr.row',
