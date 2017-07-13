@@ -12,10 +12,6 @@ module.exports = {
     },
 
     "Duck's Labels Count Check": function (client) {
-        this.customer.stickerCheck('MostPopular', client, () => {
-            this.customer.stickerCheck('Campaigns', client, () => {
-                this.customer.stickerCheck('LatestProducts', client);
-            });
-        });
+        this.customer.stickerCheck(client);
     }
 };
